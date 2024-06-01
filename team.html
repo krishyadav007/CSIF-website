@@ -14,18 +14,21 @@
   <link rel="stylesheet" href="assets/css/plugins.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/colors/leaf.css">
-  <link rel="stylesheet" href="assets/css/mss.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700'>
-    <link rel="preload" href="assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
 </head>
 
 <body>
+  <style>
+    .image-wrapper.bg-overlay:before {
+      background: rgba(0, 0, 0, .7) !important;
+    }
+  </style>
   <div class="content-wrapper">
     <header class="wrapper bg-soft-primary">
       <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="index.html">
+            <a href="#">
               <img class="logo-dark" src="./assets/img/csif-logo.jpg" srcset="./assets/img/csif-logo.jpg" alt=""
                 width="40px" />
               <img class="logo-light" src="./assets/img/csif-logo.jpg" srcset="./assets/img/csif-logo.jpg" alt=""
@@ -40,13 +43,12 @@
             </div>
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
-
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About us</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="#">Vision</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="#">History</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="#">Team</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="index.html#about">Vision</a></li>
+                    <!-- <li class="nav-item"><a class="dropdown-item" href="#">History</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">Team</a></li> -->
                     <!-- <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle"
                         href="#" data-bs-toggle="dropdown">Blog Posts</a>
                       <ul class="dropdown-menu">
@@ -61,7 +63,7 @@
                 </li>
 
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link " href="./mss.html">MSS</a>
+                  <a class="nav-link" href="./mss.html">MSS</a>
 
                 </li>
                 <li class="nav-item dropdown dropdown-mega">
@@ -72,9 +74,8 @@
 
               <div class="offcanvas-footer d-lg-none">
                 <div>
-                  <a href="cdn-cgi/l/email-protection.html#98fef1eaebecb6f4f9ebecd8fdf5f9f1f4b6fbf7f5"
-                    class="link-inverse"><span class="__cf_email__"
-                      data-cfemail="b2dbdcd4ddf2d7dfd3dbde9cd1dddf">[email&#160;protected]</span></a>
+                  <a href="$" class="link-inverse"><span class="__cf_email__"
+                      data-cfemail="#">[email&#160;protected]</span></a>
                   <br /> 00 (123) 456 78 90 <br /> -->
                   <nav class="nav social social-white mt-4">
                     <a href="#"><i class="uil uil-twitter"></i></a>
@@ -157,12 +158,132 @@
       </div>
 
     </header>
+    <!-- /section -->
+    <section class="wrapper bg-light">
+      <div class="container py-14 py-md-16">
+        <div class="row mb-3">
+          <div class="col-md-10 col-xl-9 col-xxl-7 mx-auto text-center">
+            <img src="./assets/img/icons/lineal/team.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+            <h2 class="display-4 mb-3 px-lg-14">Meet the hard working minds behind CSIF </h2>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
 
-    <section class="rain-wrapper">
-      <div class="rain"></div>
-      <h1>MONSOON SEMINAR<br>SERIES</h1>
-      <small>More details coming soon</small>
+        <div class="row">
+          <div class="item-inner">
+            <div class="card">
+              <div class="">
+                <div class="row no-gutters">
+                  <div class="col-md-4 my-custom-class">
+                    <picture>
+                      <img class="img-fluid w-100 rounded"
+                        style="object-fit: cover; object-position: center; height: 40vh;"
+                        src="https://media.licdn.com/dms/image/D4D03AQE7piAuYAqIWA/profile-displayphoto-shrink_800_800/0/1685786331884?e=1722470400&v=beta&t=jWiNPjV03XdcJ8OTgcleOUqKOP99oRbv9BjqnGoZJwc"
+                        alt="person">
+                    </picture>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body py-1">
+                      <div class="row">
+                        <div class="col-12">
+                          <h4 class="mb-1">Krish Yadav</h4>
+                          <div class="meta mb-2">Founder</div>
+                          <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                          <nav class="nav social mb-0">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                            <a href="#"><i class="uil uil-dribbble"></i></a>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!-- /.card -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="item-inner">
+            <div class="card">
+              <div class="">
+                <div class="row no-gutters">
+                  <div class="col-md-4 my-custom-class">
+                    <picture>
+                      <img class="img-fluid w-100 rounded"
+                        style="object-fit: cover; object-position: center; height: 40vh;"
+                        src="https://media.licdn.com/dms/image/D4D03AQE7piAuYAqIWA/profile-displayphoto-shrink_800_800/0/1685786331884?e=1722470400&v=beta&t=jWiNPjV03XdcJ8OTgcleOUqKOP99oRbv9BjqnGoZJwc"
+                        alt="person">
+                    </picture>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body py-1">
+                      <div class="row">
+                        <div class="col-12">
+                          <h4 class="mb-1">Tina Geller</h4>
+                          <div class="meta mb-2">Financial Analyst</div>
+                          <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                          <nav class="nav social mb-0">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                            <a href="#"><i class="uil uil-dribbble"></i></a>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!-- /.card -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="item-inner">
+            <div class="card">
+              <div class="">
+                <div class="row no-gutters">
+                  <div class="col-md-4 my-custom-class">
+                    <picture>
+                      <img class="img-fluid w-100 rounded"
+                        style="object-fit: cover; object-position: center; height: 40vh;"
+                        src="https://media.licdn.com/dms/image/D4D03AQE7piAuYAqIWA/profile-displayphoto-shrink_800_800/0/1685786331884?e=1722470400&v=beta&t=jWiNPjV03XdcJ8OTgcleOUqKOP99oRbv9BjqnGoZJwc"
+                        alt="person">
+                    </picture>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body py-1">
+                      <div class="row">
+                        <div class="col-12">
+                          <h4 class="mb-1">Tina Geller</h4>
+                          <div class="meta mb-2">Financial Analyst</div>
+                          <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                          <nav class="nav social mb-0">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                            <a href="#"><i class="uil uil-dribbble"></i></a>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!-- /.card -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
+    <!-- /section -->
   </div>
 
   <footer class="bg-dark text-inverse footer-bg">
@@ -171,7 +292,7 @@
         <div class="col-lg-4">
           <div class="widget">
             <!--img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="">-->
-            <p class="mb-4">© 2022 CSIF. All rights reserved.</p>
+            <p class="mb-4">© 2024 CSIF. All rights reserved.</p>
             <nav class="nav social social-white">
               <!--<a href="#"><i class="uil uil-twitter"></i></a>
               <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -207,8 +328,40 @@
   <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/theme.js"></script>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script src="assets/js/mss.js"></script>
+  <script type="text/javascript">
+    // Set the date we're counting down to
+    var countDownDate = new Date("July 1, 2024 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("countdown1").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+      document.getElementById("countdown2").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown1").innerHTML = "EXPIRED";
+        document.getElementById("countdown2").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+  </script>
 </body>
 
 </html>
